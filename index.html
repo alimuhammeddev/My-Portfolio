@@ -31,8 +31,8 @@
 
 
     <header class="bg-[#f8f8f8] z-20 fixed top-0 left-0 w-full shadow-sm backdrop-blur-lg bg-opacity-70">
-        <nav class="flex justify-between items-center w-[92%] mx-auto py-4 lg:p-0 p-2">
-            <div class="header lg:px-40">
+        <nav class="flex justify-between items-center w-[92%] mx-auto py-4 lg:p-0 p-2 max-w-7xl">
+            <div class="header">
                 <h1 class="font-extrabold lg:text-[50px] text-[30px] hover:text-[#292059] transition ease-out duration-500 cursor-pointer">Ali_Dev</h1>
             </div>
             <div class="nav-links md:static fixed md:min-h-fit min-h-[60vh] left-0 top-20 -translate-x-full md:translate-x-0 md:w-auto w-full flex items-center px-5 transform transition-transform duration-300 ease-in-out bg-[#f8f8f8] lg:bg-transparent md:bg-transparent">
@@ -57,9 +57,9 @@
         </nav>
     </header>
 
-    <div class="lg:p-56 p-5 lg:mt-0 mt-10" id="home">
+    <div class="lg:p-0 p-5 lg:mt-36 mt-20 max-w-7xl mx-auto" id="home">
         <div class="container mt-5 grid lg:grid-cols-2 gap-36">
-            <div class="lg:mt-0 mt-10">
+            <div class="">
                 <h1 class="text-xl font-medium">Hello!</h1>
                 <h2 class="lg:text-[30px] text-[20px] font-semibold">I'm Ali Muhammed S.</h2>
                 <h3 class="lg:text-[40px] text-[25px] font-bold">A Frontend <span class="text-[#292059]">Web Developer</span></h3>
@@ -76,12 +76,12 @@
         </div>
     </div>
 
-    <div class="lg:px-56 p-5 lg:-mt-28 mt-20" id="about">
+    <div class="lg:p-0 p-5 lg:mt-28 mt-16 max-w-7xl mx-auto" id="about">
         <h1 class="lg:text-[40px] text-[25px] font-semibold">About me</h1>
         <p class="lg:text-[20px] text-[18px] mt-2 text-justify">I'm a Web Developer with extensive experience for over 2 years in crafting responsive, user-friendly websites and applications. I have a solid foundation in HTML, CSS, and JavaScript, and I'm proficient in modern frontend frameworks like React.js, Next.js and Tailwind CSS. I build both website and web applications. Over the past two years, I've honed my skills in creating clean, maintainable code and delivering engaging user experiences. My journey in web development started with a curiosity for how websites are built, which quickly turned into a dedicated career path. In my projects, I prioritize performance, accessibility, and scalability. I'm always eager to learn new technologies and keep up with the latest trends in the industry to improve my skill set continuously. I'm excited about the future of web development and look forward to contributing to impactful projects. Let's connect and create something amazing together!</p>
     </div>
 
-    <div class="lg:px-56 p-5 lg:mt-5" id="projects">
+    <div class="lg:p-0 p-5 lg:mt-20 max-w-7xl mx-auto" id="projects">
         <div class="container mt-7">
             <h1 class="text-center font-semibold lg:text-[40px] text-[25px]">Projects</h1>
             <p class="text-center lg:text-[25px] text-[17px]">Here are few projects i've worked on so far</p>
@@ -92,6 +92,30 @@
                   <div>
                     <div>
                       <div id="keen-slider" class="keen-slider shadow-2xl shadow-black/50">
+
+                        <div class="keen-slider__slide relative">
+                          <img src="/Img/mashopstore.png" alt="" class="w-full h-full object-cover">
+                          <div class="absolute inset-0 flex items-center justify-center gap-10">
+                            <a href="https://mashop-store.vercel.app"><ion-icon name="globe-outline" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                            <a href="https://github.com/alimuhammeddev/Mashop-Store"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                          </div>
+                        </div>
+
+                        <div class="keen-slider__slide relative">
+                          <img src="/Img/mashopdashboard.png" alt="" class="w-full h-full object-cover">
+                          <div class="absolute inset-0 flex items-center justify-center gap-10">
+                            <a href="https://mashop.vercel.app"><ion-icon name="globe-outline" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                            <a href="https://github.com/alimuhammeddev/Mashop"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                          </div>
+                        </div>
+
+                        <div class="keen-slider__slide relative">
+                          <img src="/Img/tomato.png" alt="" class="w-full h-full object-cover">
+                          <div class="absolute inset-0 flex items-center justify-center gap-10">
+                            <a href="https://tomato-zeta.vercel.app/"><ion-icon name="globe-outline" class="lg:text-3xl text-xl lg:p-3 p-2 text-[#ffffff] bg-[#292059] rounded-full"></ion-icon></a>
+                            <a href="https://github.com/alimuhammeddev/Tomato"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                          </div>
+                        </div>
 
                         <div class="keen-slider__slide relative">
                           <img src="/Img/avs.png" alt="" class="w-full h-full object-cover">
@@ -106,14 +130,6 @@
                           <div class="absolute inset-0 flex items-center justify-center gap-10">
                             <a href="https://techhub-delta.vercel.app/"><ion-icon name="globe-outline" class="lg:text-3xl text-xl lg:p-3 p-2 text-[#ffffff] bg-[#292059]  rounded-full"></ion-icon></a>
                             <a href="https://github.com/alimuhammeddev/Techhub"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                          </div>
-                        </div>
-
-                        <div class="keen-slider__slide relative">
-                          <img src="/Img/tomato.png" alt="" class="w-full h-full object-cover">
-                          <div class="absolute inset-0 flex items-center justify-center gap-10">
-                            <a href="https://tomato-zeta.vercel.app/"><ion-icon name="globe-outline" class="lg:text-3xl text-xl lg:p-3 p-2 text-[#ffffff] bg-[#292059] rounded-full"></ion-icon></a>
-                            <a href="https://github.com/alimuhammeddev/Tomato"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
                           </div>
                         </div>
 
@@ -252,7 +268,7 @@
     </div>
 
     <div class="bg-[#292059] p-10 mt-20 lg:pb-28">
-      <div class="container">
+      <div class="">
         <h1 class="text-center text-[#ffffff] lg:text-[45px] text-[25px] font-semibold">Technologies I work with</h1>
         <p class="text-center text-[#ffffff] lg:text-[20px] text-[15px]">Here are the few technologies i work with</p>
 
@@ -314,8 +330,8 @@
 -->
 
 <section id="contact">
-  <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5 lg:px-10">
+  <div class="py-16 sm:px-6 lg:p-0 p-5 max-w-7xl mx-auto lg:mt-10 lg:pb-10">
+    <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
       <div class="lg:col-span-2 lg:py-12">
         <p class="max-w-xl lg:text-[55px] text-[25px] font-semibold">
           Interested to work with me? Let's talk
