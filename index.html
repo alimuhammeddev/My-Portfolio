@@ -1,418 +1,499 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ali Muahmmed S.</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Outline&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" rel="stylesheet" />
-    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali Muahmmed S.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Outline&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" rel="stylesheet" />
+  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
 </head>
+
 <body>
-    <style>
-        .header {
-        font-family: "Bungee Outline", sans-serif;
-        }
+  <style>
+    .header {
+      font-family: "Bungee Outline", sans-serif;
+    }
 
-        html{
-            font-family: "Dosis", sans-serif;
-            scroll-behavior: smooth;
-        }
-    </style>
+    html {
+      font-family: "Dosis", sans-serif;
+      scroll-behavior: smooth;
+    }
+  </style>
 
 
-    <header class="bg-[#f8f8f8] z-20 fixed top-0 left-0 w-full shadow-sm backdrop-blur-lg bg-opacity-70">
-        <nav class="flex justify-between items-center w-[92%] mx-auto py-4 lg:p-0 p-2 max-w-7xl">
-            <div class="header">
-                <h1 class="font-extrabold lg:text-[50px] text-[30px] hover:text-[#292059] transition ease-out duration-500 cursor-pointer">Ali_Dev</h1>
-            </div>
-            <div class="nav-links md:static fixed md:min-h-fit min-h-[60vh] left-0 top-20 -translate-x-full md:translate-x-0 md:w-auto w-full flex items-center px-5 transform transition-transform duration-300 ease-in-out bg-[#f8f8f8] lg:bg-transparent md:bg-transparent">
-                <ul class="flex md:flex-row flex-col md:items-center mx-auto lg:ml-28 md:gap-[5vw] gap-8 lg:mt-0 md:mt-0 -mt-28">
-                    <li>
-                        <a class="nav-link text-[#121212CC] hover:text-[#292059] transition ease-out duration-500 text-lg font-semibold" href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a class=" nav-link text-[#121212CC] hover:text-[#292059] transition ease-out duration-500 text-lg font-semibold" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="nav-link text-[#121212CC] hover:text-[#292059] transition ease-out duration-500 text-lg font-semibold" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="nav-link text-[#121212cc] hover:text-[#292059] transition ease-out duration-500 lg:text-lg text-base font-semibold w-fit" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="gap-6">
-                <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-3xl cursor-pointer md:hidden"></ion-icon>
-            </div>
-        </nav>
-    </header>
+  <header class="bg-[#f8f8f8] z-20 fixed top-0 left-0 w-full shadow-sm backdrop-blur-lg bg-opacity-70">
+    <nav class="flex justify-between items-center w-[92%] mx-auto py-4 lg:p-0 p-2 max-w-7xl">
+      <div class="header">
+        <h1
+          class="font-extrabold lg:text-[50px] text-[30px] hover:text-[#292059] transition ease-out duration-500 cursor-pointer">
+          Ali_Dev</h1>
+      </div>
+      <div
+        class="nav-links md:static fixed md:min-h-fit min-h-[60vh] left-0 top-20 -translate-x-full md:translate-x-0 md:w-auto w-full flex items-center px-5 transform transition-transform duration-300 ease-in-out bg-[#f8f8f8] lg:bg-transparent md:bg-transparent">
+        <ul
+          class="flex md:flex-row flex-col md:items-center mx-auto lg:ml-28 md:gap-[5vw] gap-8 lg:mt-0 md:mt-0 -mt-28">
+          <li>
+            <a class="nav-link text-[#121212CC] hover:text-[#292059] transition ease-out duration-500 text-lg font-semibold"
+              href="#home">Home</a>
+          </li>
+          <li>
+            <a class=" nav-link text-[#121212CC] hover:text-[#292059] transition ease-out duration-500 text-lg font-semibold"
+              href="#about">About</a>
+          </li>
+          <li>
+            <a class="nav-link text-[#121212CC] hover:text-[#292059] transition ease-out duration-500 text-lg font-semibold"
+              href="#projects">Projects</a>
+          </li>
+          <li>
+            <a class="nav-link text-[#121212cc] hover:text-[#292059] transition ease-out duration-500 lg:text-lg text-base font-semibold w-fit"
+              href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="gap-6">
+        <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+      </div>
+    </nav>
+  </header>
 
-    <div class="lg:p-0 p-5 lg:mt-36 mt-20 max-w-7xl mx-auto" id="home">
-        <div class="container mt-5 grid lg:grid-cols-2 gap-36">
-            <div class="">
-                <h1 class="text-xl font-medium">Hello!</h1>
-                <h2 class="lg:text-[30px] text-[20px] font-semibold">I'm Ali Muhammed S.</h2>
-                <h3 class="lg:text-[40px] text-[25px] font-bold">A Frontend <span class="text-[#292059]">Web Developer</span></h3>
-                <p class="lg:text-[20px] text-[18px] text-justify">Hello! I'm Ali Muhammed, a passionate and creative Frontend Developer with a strong foundation in turning design concepts into beautiful, user-friendly websites and web applications. With experience in the field, I thrive on pushing the boundaries of web development to create immersive digital experiences.</p>
-                <div class="mt-7 lg:space-x-3 lg:space-y-0 space-y-5 flex lg:flex-row flex-col items-center">
-                    <a href="/resume/Ali Dev.pdf" class="bg-[#E5E3F7] hover:text-[#292059] p-3 px-7 lg:w-fit w-full font-semibold text-[17px] rounded-full transition duration-500 flex items-center justify-center gap-1"><ion-icon name="document-outline"></ion-icon> View resume</a>
-                    <a href="https://wa.me/ 23409094300959" class="bg-[#292059] text-[#ffffff] lg:w-fit w-full hover:bg-[#E5E3F7] hover:text-[#292059] p-3 px-7 font-semibold text-[17px] rounded-full justify-center transition duration-500 flex items-center gap-1">Hire me <ion-icon name="rocket-outline"></ion-icon></a>
-                </div>
-            </div>
-
-            <div class="hover:scale-105 cursor-pointer transition ease-out duration-500">
-                <img src="/Img/hero image.jpg" alt="">
-            </div>
-        </div>
-    </div>
-
-    <div class="lg:p-0 p-5 lg:mt-28 mt-16 max-w-7xl mx-auto" id="about">
-        <h1 class="lg:text-[40px] text-[25px] font-semibold">About me</h1>
-        <p class="lg:text-[20px] text-[18px] mt-2 text-justify">I'm a Web Developer with extensive experience for over 2 years in crafting responsive, user-friendly websites and applications. I have a solid foundation in HTML, CSS, and JavaScript, and I'm proficient in modern frontend frameworks like React.js, Next.js and Tailwind CSS. I build both website and web applications. Over the past two years, I've honed my skills in creating clean, maintainable code and delivering engaging user experiences. My journey in web development started with a curiosity for how websites are built, which quickly turned into a dedicated career path. In my projects, I prioritize performance, accessibility, and scalability. I'm always eager to learn new technologies and keep up with the latest trends in the industry to improve my skill set continuously. I'm excited about the future of web development and look forward to contributing to impactful projects. Let's connect and create something amazing together!</p>
-    </div>
-
-    <div class="lg:p-0 p-5 lg:mt-20 max-w-7xl mx-auto" id="projects">
-        <div class="container mt-7">
-            <h1 class="text-center font-semibold lg:text-[40px] text-[25px]">Projects</h1>
-            <p class="text-center lg:text-[25px] text-[17px]">Here are few projects i've worked on so far</p>
-        </div>
-        <div>
-            <section>
-                <div class="mt-10">
-                  <div>
-                    <div>
-                      <div id="keen-slider" class="keen-slider shadow-2xl shadow-black/50">
-
-                        <div class="keen-slider__slide relative">
-                          <img src="/Img/mashopstore.png" alt="" class="w-full h-full object-cover">
-                          <div class="absolute inset-0 flex items-center justify-center gap-10">
-                            <a href="https://mashop-store.vercel.app"><ion-icon name="globe-outline" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                            <a href="https://github.com/alimuhammeddev/Mashop-Store"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                          </div>
-                        </div>
-
-                        <div class="keen-slider__slide relative">
-                          <img src="/Img/mashopdashboard.png" alt="" class="w-full h-full object-cover">
-                          <div class="absolute inset-0 flex items-center justify-center gap-10">
-                            <a href="https://mashop.vercel.app"><ion-icon name="globe-outline" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                            <a href="https://github.com/alimuhammeddev/Mashop"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                          </div>
-                        </div>
-
-                        <div class="keen-slider__slide relative">
-                          <img src="/Img/tomato.png" alt="" class="w-full h-full object-cover">
-                          <div class="absolute inset-0 flex items-center justify-center gap-10">
-                            <a href="https://tomato-zeta.vercel.app/"><ion-icon name="globe-outline" class="lg:text-3xl text-xl lg:p-3 p-2 text-[#ffffff] bg-[#292059] rounded-full"></ion-icon></a>
-                            <a href="https://github.com/alimuhammeddev/Tomato"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                          </div>
-                        </div>
-
-                        <div class="keen-slider__slide relative">
-                          <img src="/Img/analytica.png" alt="" class="w-full h-full object-cover">
-                          <div class="absolute inset-0 flex items-center justify-center gap-10">
-                            <a href="https://www.analyticahaven.org/"><ion-icon name="globe-outline" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                            <a href="https://github.com/alimuhammeddev/Analytica-Haven"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                          </div>
-                        </div>
-
-                        <div class="keen-slider__slide relative">
-                          <img src="/Img/avs.png" alt="" class="w-full h-full object-cover">
-                          <div class="absolute inset-0 flex items-center justify-center gap-10">
-                            <a href="https://business-consulting-mu.vercel.app/"><ion-icon name="globe-outline" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                            <a href="https://github.com/alimuhammeddev/Business-Consulting"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                          </div>
-                        </div>
-
-                        <div class="keen-slider__slide relative">
-                          <img src="/Img/tech hub.png" alt="" class="w-full h-full object-cover">
-                          <div class="absolute inset-0 flex items-center justify-center gap-10">
-                            <a href="https://techhub-delta.vercel.app/"><ion-icon name="globe-outline" class="lg:text-3xl text-xl lg:p-3 p-2 text-[#ffffff] bg-[#292059]  rounded-full"></ion-icon></a>
-                            <a href="https://github.com/alimuhammeddev/Techhub"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                          </div>
-                        </div>
-
-                        <div class="keen-slider__slide relative">
-                          <img src="/Img/fashion fit.png" alt="" class="w-full h-full object-cover">
-                          <div class="absolute inset-0 flex items-center justify-center gap-10">
-                            <a href="https://fashion-fit-nine.vercel.app/"><ion-icon name="globe-outline" class="lg:text-3xl text-xl lg:p-3 p-2 text-[#ffffff] bg-[#292059] rounded-full"></ion-icon></a>
-                            <a href="https://github.com/alimuhammeddev/Fashion-Fit"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                          </div>
-                        </div>
-
-                        <div class="keen-slider__slide relative">
-                          <img src="/Img/fit form.png" alt="" class="w-full h-full object-cover">
-                          <div class="absolute inset-0 flex items-center justify-center gap-10">
-                            <a href="https://fit-form.vercel.app/"><ion-icon name="globe-outline" class="lg:text-3xl text-xl lg:p-3 p-2 text-[#ffffff] bg-[#292059] rounded-full"></ion-icon></a>
-                            <a href="https://github.com/alimuhammeddev/Fit-Form"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                          </div>
-                        </div>
-
-                        <div class="keen-slider__slide">
-                          <img src="/Img/travelworld.png" alt="" class="w-full h-full object-cover">
-                          <div class="absolute inset-0 flex items-center justify-center gap-10">
-                            <a href="https://travel-world-rho.vercel.app/"><ion-icon name="globe-outline" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                            <a href="https://github.com/alimuhammeddev/TravelWorld"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                          </div>
-                        </div>
-
-                        <div class="keen-slider__slide relative">
-                          <img src="/Img/avion.png" alt="" class="w-full h-full object-cover">
-                          <div class="absolute inset-0 flex items-center justify-center gap-10">
-                            <a href="https://avion-pink.vercel.app/"><ion-icon name="globe-outline" class="lg:text-3xl text-xl lg:p-3 p-2 text-[#ffffff] bg-[#292059] rounded-full"></ion-icon></a>
-                            <a href="https://github.com/alimuhammeddev/Avion"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                          </div>
-                        </div>
-
-                        <div class="keen-slider__slide">
-                          <img src="/Img/apex.png" alt="" class="w-full h-full object-cover">
-                          <div class="absolute inset-0 flex items-center justify-center gap-10">
-                            <a href="https://app-apex.netlify.app/"><ion-icon name="globe-outline" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                            <a href="https://github.com/alimuhammeddev/Apex"><ion-icon name="logo-github" class="lg:text-3xl text-xl text-[#ffffff] bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
-                          </div>
-                        </div>
-
-                      </div>
-                    </div>
-
-                    <div class="hidden lg:mt-8 lg:flex justify-center lg:gap-4">
-                        <button
-                          aria-label="Previous slide"
-                          id="keen-slider-previous-desktop"
-                          class="rounded-full border border-[#292059] p-4 text-[#292059] transition hover:bg-[#292059] hover:text-white"
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke-width="1.5"
-                            stroke="currentColor"
-                            class="size-5 rtl:rotate-180"
-                          >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              d="M15.75 19.5L8.25 12l7.5-7.5"
-                            />
-                          </svg>
-                        </button>
-              
-                        <button
-                          aria-label="Next slide"
-                          id="keen-slider-next-desktop"
-                          class="rounded-full border border-[#292059] p-4 text-[#292059] transition hover:bg-[#292059] hover:text-white"
-                        >
-                          <svg
-                            class="size-5 rtl:rotate-180"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M9 5l7 7-7 7"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                            />
-                          </svg>
-                        </button>
-                      </div>
-                  </div>
-              
-                  <div class="mt-8 flex justify-center gap-4 lg:hidden">
-                    <button
-                      aria-label="Previous slide"
-                      id="keen-slider-previous"
-                      class="rounded-full border border-[#292059] p-2 text-[#292059] transition hover:bg-[#292059] hover:text-white"
-                    >
-                      <svg
-                        class="size-5 -rotate-180 transform"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                      </svg>
-                    </button>
-              
-                    <button
-                      aria-label="Next slide"
-                      id="keen-slider-next"
-                      class="rounded-full border border-[#292059] p-2 text-[#292059] transition hover:bg-[#292059] hover:text-white"
-                    >
-                      <svg
-                        class="h-5 w-5"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </section>
-        </div>
-    </div>
-
-    <div class="bg-[#292059] p-10 mt-20 lg:pb-28">
+  <div class="lg:p-0 p-5 lg:mt-36 mt-20 max-w-7xl mx-auto" id="home">
+    <div class="container mt-5 grid lg:grid-cols-2 gap-36">
       <div class="">
-        <h1 class="text-center text-[#ffffff] lg:text-[45px] text-[25px] font-semibold">Technologies I work with</h1>
-        <p class="text-center text-[#ffffff] lg:text-[20px] text-[15px]">Here are the few technologies i work with</p>
+        <h1 class="text-xl font-medium">Hello!</h1>
+        <h2 class="lg:text-[30px] text-[20px] font-semibold">I'm Ali Muhammed S.</h2>
+        <h3 class="lg:text-[40px] text-[25px] font-bold">A Frontend <span class="text-[#292059]">Web Developer</span>
+        </h3>
+        <p class="lg:text-[20px] text-[18px] text-justify">Hello! I'm Ali Muhammed, a passionate and creative Frontend
+          Developer with a strong foundation in turning design concepts into beautiful, user-friendly websites and web
+          applications. With experience in the field, I thrive on pushing the boundaries of web development to create
+          immersive digital experiences.</p>
+        <div class="mt-7 lg:space-x-3 lg:space-y-0 space-y-5 flex lg:flex-row flex-col items-center">
+          <a href="/resume/Ali Dev.pdf"
+            class="bg-[#E5E3F7] hover:text-[#292059] p-3 px-7 lg:w-fit w-full font-semibold text-[17px] rounded-full transition duration-500 flex items-center justify-center gap-1"><ion-icon
+              name="document-outline"></ion-icon> View resume</a>
+          <a href="https://wa.me/ 23409094300959"
+            class="bg-[#292059] text-[#ffffff] lg:w-fit w-full hover:bg-[#E5E3F7] hover:text-[#292059] p-3 px-7 font-semibold text-[17px] rounded-full justify-center transition duration-500 flex items-center gap-1">Hire
+            me <ion-icon name="rocket-outline"></ion-icon></a>
+        </div>
+      </div>
 
-        <div class="lg:flex lg:flex-row grid grid-cols-2 mt-12 justify-center mx-auto items-center gap-10">
-          <div class="flex flex-col items-center">
-            <i class='bx bxl-html5 text-white text-[70px]'></i>
-            <p class="text-white mt-2">HTML5</p>
+      <div class="hover:scale-105 cursor-pointer transition ease-out duration-500">
+        <img src="/Img/hero image.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="lg:p-0 p-5 lg:mt-28 mt-16 max-w-7xl mx-auto" id="about">
+    <h1 class="lg:text-[40px] text-[25px] font-semibold">About me</h1>
+    <p class="lg:text-[20px] text-[18px] mt-2 text-justify">I'm a Web Developer with extensive experience for over 2
+      years in crafting responsive, user-friendly websites and applications. I have a solid foundation in HTML, CSS, and
+      JavaScript, and I'm proficient in modern frontend frameworks like React.js, Next.js and Tailwind CSS. I build both
+      website and web applications. Over the past two years, I've honed my skills in creating clean, maintainable code
+      and delivering engaging user experiences. My journey in web development started with a curiosity for how websites
+      are built, which quickly turned into a dedicated career path. In my projects, I prioritize performance,
+      accessibility, and scalability. I'm always eager to learn new technologies and keep up with the latest trends in
+      the industry to improve my skill set continuously. I'm excited about the future of web development and look
+      forward to contributing to impactful projects. Let's connect and create something amazing together!</p>
+  </div>
+
+  <div class="lg:p-0 p-5 lg:mt-20 max-w-7xl mx-auto" id="projects">
+    <div class="container mt-7">
+      <h1 class="text-center font-semibold lg:text-[40px] text-[25px]">Projects</h1>
+      <p class="text-center lg:text-[25px] text-[17px]">Here are few projects i've worked on so far</p>
+    </div>
+    <div>
+      <section>
+        <div class="mt-10">
+          <div>
+            <div>
+              <div id="keen-slider" class="keen-slider shadow-2xl shadow-black/50">
+
+                <div class="keen-slider__slide relative flex flex-col items-center">
+                  <div class="relative w-full">
+                    <img src="/Img/mashopstore.png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center gap-10">
+                      <a href="https://mashop-store.vercel.app"><ion-icon name="globe-outline"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                      <a href="https://github.com/alimuhammeddev/Mashop-Store"><ion-icon name="logo-github"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                    </div>
+                  </div>
+                  <div class="bg-white rounded-xl p-5 mt-4 w-[90%] lg:w-3/4 text-center">
+                    <h3 class="lg:text-2xl text-xl font-semibold text-gray-800">Mashop Store</h3>
+                    <p class="text-gray-600 mt-2 lg:text-lg">A modern e-commerce platform built with ReactJS and
+                      Tailwind CSS.</p>
+                    <p class="text-gray-500 mt-2 lg:text-lg">Technologies: ReactJS, Tailwind CSS</p>
+                  </div>
+                </div>
+
+                <div class="keen-slider__slide relative flex flex-col items-center">
+                  <div class="relative w-full">
+                    <img src="/Img/mashopdashboard.png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center gap-10">
+                      <a href="https://mashop.vercel.app"><ion-icon name="globe-outline"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                      <a href="https://github.com/alimuhammeddev/Mashop"><ion-icon name="logo-github"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                    </div>
+                  </div>
+                  <div class="bg-white rounded-xl p-5 mt-4 w-[90%] lg:w-3/4 text-center">
+                    <h3 class="lg:text-2xl text-xl font-semibold text-gray-800">Mashop Dashboard</h3>
+                    <p class="text-gray-600 mt-2 lg:text-lg">Admin dashboard for Mashop Store with analytics and
+                      management tools.</p>
+                    <p class="text-gray-500 mt-2 lg:text-lg">Technologies: ReactJS, Tailwind CSS, Chart.js</p>
+                  </div>
+                </div>
+
+                <div class="keen-slider__slide relative flex flex-col items-center">
+                  <div class="relative w-full">
+                    <img src="/Img/tomato.png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center gap-10">
+                      <a href="https://tomato-zeta.vercel.app/"><ion-icon name="globe-outline"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                      <a href="https://github.com/alimuhammeddev/Tomato"><ion-icon name="logo-github"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                    </div>
+                  </div>
+                  <div class="bg-white rounded-xl p-5 mt-4 w-[90%] lg:w-3/4 text-center">
+                    <h3 class="lg:text-2xl text-xl font-semibold text-gray-800">Tomato</h3>
+                    <p class="text-gray-600 mt-2 lg:text-lg">A food ordering web app with cart, menu, and order
+                      management features.</p>
+                    <p class="text-gray-500 mt-2 lg:text-lg">Technologies: ReactJS, Tailwind CSS, Context API</p>
+                  </div>
+                </div>
+
+                <div class="keen-slider__slide relative flex flex-col items-center">
+                  <div class="relative w-full">
+                    <img src="/Img/analytica.png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center gap-10">
+                      <a href="https://www.analyticahaven.org/"><ion-icon name="globe-outline"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                      <a href="https://github.com/alimuhammeddev/Analytica-Haven"><ion-icon name="logo-github"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                    </div>
+                  </div>
+                  <div class="bg-white rounded-xl p-5 mt-4 w-[90%] lg:w-3/4 text-center">
+                    <h3 class="lg:text-2xl text-xl font-semibold text-gray-800">Analytica Haven</h3>
+                    <p class="text-gray-600 mt-2 lg:text-lg">A data-driven analytics platform built for insights and
+                      reporting.</p>
+                    <p class="text-gray-500 mt-2 lg:text-lg">Technologies: ReactJS, Tailwind CSS</p>
+                  </div>
+                </div>
+
+                <div class="keen-slider__slide relative flex flex-col items-center">
+                  <div class="relative w-full">
+                    <img src="/Img/avs.png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center gap-10">
+                      <a href="https://business-consulting-mu.vercel.app/"><ion-icon name="globe-outline"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                      <a href="https://github.com/alimuhammeddev/Business-Consulting"><ion-icon name="logo-github"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                    </div>
+                  </div>
+                  <div class="bg-white rounded-xl p-5 mt-4 w-[90%] lg:w-3/4 text-center">
+                    <h3 class="lg:text-2xl text-xl font-semibold text-gray-800">AVS Consulting</h3>
+                    <p class="text-gray-600 mt-2 lg:text-lg">A professional business consulting website with modern UI.
+                    </p>
+                    <p class="text-gray-500 mt-2 lg:text-lg">Technologies: ReactJS, Tailwind CSS</p>
+                  </div>
+                </div>
+
+                <div class="keen-slider__slide relative flex flex-col items-center">
+                  <div class="relative w-full">
+                    <img src="/Img/tech hub.png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center gap-10">
+                      <a href="https://techhub-delta.vercel.app/"><ion-icon name="globe-outline"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                      <a href="https://github.com/alimuhammeddev/Techhub"><ion-icon name="logo-github"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                    </div>
+                  </div>
+                  <div class="bg-white rounded-xl p-5 mt-4 w-[90%] lg:w-3/4 text-center">
+                    <h3 class="lg:text-2xl text-xl font-semibold text-gray-800">Tech Hub</h3>
+                    <p class="text-gray-600 mt-2 lg:text-lg">A modern landing page for a tech startup or community hub.
+                    </p>
+                    <p class="text-gray-500 mt-2 lg:text-lg">Technologies: ReactJS, Tailwind CSS</p>
+                  </div>
+                </div>
+
+                <div class="keen-slider__slide relative flex flex-col items-center">
+                  <div class="relative w-full">
+                    <img src="/Img/fashion fit.png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center gap-10">
+                      <a href="https://fashion-fit-nine.vercel.app/"><ion-icon name="globe-outline"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                      <a href="https://github.com/alimuhammeddev/Fashion-Fit"><ion-icon name="logo-github"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                    </div>
+                  </div>
+                  <div class="bg-white rounded-xl p-5 mt-4 w-[90%] lg:w-3/4 text-center">
+                    <h3 class="lg:text-2xl text-xl font-semibold text-gray-800">Fashion Fit</h3>
+                    <p class="text-gray-600 mt-2 lg:text-lg">An e-commerce fashion website with product browsing and
+                      cart system.</p>
+                    <p class="text-gray-500 mt-2 lg:text-lg">Technologies: ReactJS, Tailwind CSS</p>
+                  </div>
+                </div>
+
+                <div class="keen-slider__slide relative flex flex-col items-center">
+                  <div class="relative w-full">
+                    <img src="/Img/fit form.png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center gap-10">
+                      <a href="https://fit-form.vercel.app/"><ion-icon name="globe-outline"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                      <a href="https://github.com/alimuhammeddev/Fit-Form"><ion-icon name="logo-github"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                    </div>
+                  </div>
+                  <div class="bg-white rounded-xl p-5 mt-4 w-[90%] lg:w-3/4 text-center">
+                    <h3 class="lg:text-2xl text-xl font-semibold text-gray-800">Fit Form</h3>
+                    <p class="text-gray-600 mt-2 lg:text-lg">A fitness app for creating personalized workout and diet
+                      plans.</p>
+                    <p class="text-gray-500 mt-2 lg:text-lg">Technologies: ReactJS, Tailwind CSS</p>
+                  </div>
+                </div>
+
+                <div class="keen-slider__slide relative flex flex-col items-center">
+                  <div class="relative w-full">
+                    <img src="/Img/travelworld.png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center gap-10">
+                      <a href="https://travel-world-rho.vercel.app/"><ion-icon name="globe-outline"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                      <a href="https://github.com/alimuhammeddev/TravelWorld"><ion-icon name="logo-github"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                    </div>
+                  </div>
+                  <div class="bg-white rounded-xl p-5 mt-4 w-[90%] lg:w-3/4 text-center">
+                    <h3 class="lg:text-2xl text-xl font-semibold text-gray-800">Travel World</h3>
+                    <p class="text-gray-600 mt-2 lg:text-lg">A travel website with booking features and beautiful
+                      destinations showcase.</p>
+                    <p class="text-gray-500 mt-2 lg:text-lg">Technologies: ReactJS, Tailwind CSS</p>
+                  </div>
+                </div>
+
+                <div class="keen-slider__slide relative flex flex-col items-center">
+                  <div class="relative w-full">
+                    <img src="/Img/avion.png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center gap-10">
+                      <a href="https://avion-pink.vercel.app/"><ion-icon name="globe-outline"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                      <a href="https://github.com/alimuhammeddev/Avion"><ion-icon name="logo-github"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                    </div>
+                  </div>
+                  <div class="bg-white rounded-xl p-5 mt-4 w-[90%] lg:w-3/4 text-center">
+                    <h3 class="lg:text-2xl text-xl font-semibold text-gray-800">Avion</h3>
+                    <p class="text-gray-600 mt-2 lg:text-lg">A modern furniture store landing page with elegant design.
+                    </p>
+                    <p class="text-gray-500 mt-2 lg:text-lg">Technologies: ReactJS, Tailwind CSS</p>
+                  </div>
+                </div>
+
+                <div class="keen-slider__slide relative flex flex-col items-center">
+                  <div class="relative w-full">
+                    <img src="/Img/apex.png" alt="" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center gap-10">
+                      <a href="https://app-apex.netlify.app/"><ion-icon name="globe-outline"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                      <a href="https://github.com/alimuhammeddev/Apex"><ion-icon name="logo-github"
+                          class="lg:text-3xl text-xl text-white bg-[#292059] lg:p-3 p-2 rounded-full"></ion-icon></a>
+                    </div>
+                  </div>
+                  <div class="bg-white rounded-xl p-5 mt-4 w-[90%] lg:w-3/4 text-center">
+                    <h3 class="lg:text-2xl text-xl font-semibold text-gray-800">Apex</h3>
+                    <p class="text-gray-600 mt-2 lg:text-lg">A SaaS landing page template designed for startups and
+                      apps.</p>
+                    <p class="text-gray-500 mt-2 lg:text-lg">Technologies: ReactJS, Tailwind CSS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hidden lg:mt-8 lg:flex justify-center lg:gap-4">
+              <button aria-label="Previous slide" id="keen-slider-previous-desktop"
+                class="rounded-full border border-[#292059] p-4 text-[#292059] transition hover:bg-[#292059] hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="size-5 rtl:rotate-180">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                </svg>
+              </button>
+
+              <button aria-label="Next slide" id="keen-slider-next-desktop"
+                class="rounded-full border border-[#292059] p-4 text-[#292059] transition hover:bg-[#292059] hover:text-white">
+                <svg class="size-5 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                </svg>
+              </button>
+            </div>
           </div>
-          <div class="flex flex-col items-center">
-            <i class='bx bxl-css3 text-white text-[70px]'></i>
-            <p class="text-white mt-2">CSS3</p>
+
+          <div class="mt-8 flex justify-center gap-4 lg:hidden">
+            <button aria-label="Previous slide" id="keen-slider-previous"
+              class="rounded-full border border-[#292059] p-2 text-[#292059] transition hover:bg-[#292059] hover:text-white">
+              <svg class="size-5 -rotate-180 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+              </svg>
+            </button>
+
+            <button aria-label="Next slide" id="keen-slider-next"
+              class="rounded-full border border-[#292059] p-2 text-[#292059] transition hover:bg-[#292059] hover:text-white">
+              <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+              </svg>
+            </button>
           </div>
-          <div class="flex flex-col items-center">
-            <i class='bx bxl-javascript text-white text-[70px]'></i>
-            <p class="text-white mt-2">JavaScript</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <i class='bx bxl-react text-white text-[70px]'></i>
-            <p class="text-white mt-2">React</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <i class="w3-hover-opacity lni lni-nextjs text-white text-[50px]" style="margin: 10px;"></i>
-            <p class="text-white mt-2">Next JS</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <i class='bx bxl-tailwind-css text-white text-[60px]'></i>
-            <p class="text-white mt-2">Tailwind CSS</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <i class='bx bxl-github text-white text-[60px]'></i>
-            <p class="text-white mt-2">Github</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <i class='bx bxl-git text-white text-[60px]'></i>
-            <p class="text-white mt-2">Git</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <i class='bx bxl-jquery text-white text-[60px]'></i>
-            <p class="text-white mt-2">Jquery</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <i class='bx bxl-visual-studio text-white text-[60px]'></i>
-            <p class="text-white mt-2">VS Code</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <i class='bx bxl-figma text-white text-[60px]'></i>
-            <p class="text-white mt-2">Figma</p>
-          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="bg-[#292059] p-10 mt-20 lg:pb-28">
+    <div class="">
+      <h1 class="text-center text-[#ffffff] lg:text-[45px] text-[25px] font-semibold">Technologies I work with</h1>
+      <p class="text-center text-[#ffffff] lg:text-[20px] text-[15px]">Here are the few technologies i work with</p>
+
+      <div class="lg:flex lg:flex-row grid grid-cols-2 mt-12 justify-center mx-auto items-center gap-10">
+        <div class="flex flex-col items-center">
+          <i class='bx bxl-html5 text-white text-[70px]'></i>
+          <p class="text-white mt-2">HTML5</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class='bx bxl-css3 text-white text-[70px]'></i>
+          <p class="text-white mt-2">CSS3</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class='bx bxl-javascript text-white text-[70px]'></i>
+          <p class="text-white mt-2">JavaScript</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class='bx bxl-react text-white text-[70px]'></i>
+          <p class="text-white mt-2">React</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class="w3-hover-opacity lni lni-nextjs text-white text-[50px]" style="margin: 10px;"></i>
+          <p class="text-white mt-2">Next JS</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class='bx bxl-tailwind-css text-white text-[60px]'></i>
+          <p class="text-white mt-2">Tailwind CSS</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class='bx bxl-github text-white text-[60px]'></i>
+          <p class="text-white mt-2">Github</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class='bx bxl-git text-white text-[60px]'></i>
+          <p class="text-white mt-2">Git</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class='bx bxl-jquery text-white text-[60px]'></i>
+          <p class="text-white mt-2">Jquery</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class='bx bxl-visual-studio text-white text-[60px]'></i>
+          <p class="text-white mt-2">VS Code</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class='bx bxl-figma text-white text-[60px]'></i>
+          <p class="text-white mt-2">Figma</p>
         </div>
       </div>
     </div>
+  </div>
 
 
-    <!--
+  <!--
   Heads up! 👋
 
   Plugins:
     - @tailwindcss/forms
 -->
 
-<section id="contact">
-  <div class="py-16 sm:px-6 lg:p-0 p-5 max-w-7xl mx-auto lg:mt-10 lg:pb-10">
-    <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
-      <div class="lg:col-span-2 lg:py-12">
-        <p class="max-w-xl lg:text-[55px] text-[25px] font-semibold">
-          Interested to work with me? Let's talk
-        </p>
+  <section id="contact">
+    <div class="py-16 sm:px-6 lg:p-0 p-5 max-w-7xl mx-auto lg:mt-10 lg:pb-10">
+      <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+        <div class="lg:col-span-2 lg:py-12">
+          <p class="max-w-xl lg:text-[55px] text-[25px] font-semibold">
+            Interested to work with me? Let's talk
+          </p>
 
-        <div class="lg:mt-8 mt-3">
-          <h1 class="lg:text-2xl font-bold text-[#292059] flex items-center gap-2"><ion-icon name="call-outline"></ion-icon> +234 9094300959</h1>
+          <div class="lg:mt-8 mt-3">
+            <h1 class="lg:text-2xl font-bold text-[#292059] flex items-center gap-2"><ion-icon
+                name="call-outline"></ion-icon> +234 9094300959</h1>
 
-          <p class="mt-2 text-[#292059] lg:text-[20px] flex items-center gap-2"><ion-icon name="mail-outline"></ion-icon> muhammedaliali2020@gmail.com</p>
+            <p class="mt-2 text-[#292059] lg:text-[20px] flex items-center gap-2"><ion-icon
+                name="mail-outline"></ion-icon> muhammedaliali2020@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+          <form action="#" class="space-y-4">
+            <div>
+              <label class="sr-only" for="name">Name</label>
+              <input class="w-full rounded-lg border p-3 text-sm" placeholder="Name" type="text" id="name" />
+            </div>
+
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <div>
+                <label class="sr-only" for="email">Email</label>
+                <input class="w-full rounded-lg border p-3 text-sm" placeholder="Email address" type="email"
+                  id="email" />
+              </div>
+
+              <div>
+                <label class="sr-only" for="phone">Phone</label>
+                <input class="w-full rounded-lg border p-3 text-sm" placeholder="Phone Number" type="tel" id="phone" />
+              </div>
+            </div>
+
+            <div class="">
+
+              <div>
+                <label class="sr-only" for="message">Message</label>
+
+                <textarea class="w-full rounded-lg border p-3 text-sm" placeholder="Message" rows="8"
+                  id="message"></textarea>
+              </div>
+
+              <div class="mt-4">
+                <a href="#!"
+                  class=" justify-center w-full rounded-full bg-[#292059] hover:bg-[#E5E3F7] hover:text-[#292059] px-5 py-3 font-semibold transition ease-out duration-500 text-[#ffffff] items-center flex gap-2 sm:w-auto">
+                  Send <ion-icon name="send-outline"></ion-icon>
+                </a>
+              </div>
+          </form>
         </div>
       </div>
-
-      <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
-        <form action="#" class="space-y-4">
-          <div>
-            <label class="sr-only" for="name">Name</label>
-            <input
-              class="w-full rounded-lg border p-3 text-sm"
-              placeholder="Name"
-              type="text"
-              id="name"
-            />
-          </div>
-
-          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-            <div>
-              <label class="sr-only" for="email">Email</label>
-              <input
-                class="w-full rounded-lg border p-3 text-sm"
-                placeholder="Email address"
-                type="email"
-                id="email"
-              />
-            </div>
-
-            <div>
-              <label class="sr-only" for="phone">Phone</label>
-              <input
-                class="w-full rounded-lg border p-3 text-sm"
-                placeholder="Phone Number"
-                type="tel"
-                id="phone"
-              />
-            </div>
-          </div>
-
-          <div class="">
-
-          <div>
-            <label class="sr-only" for="message">Message</label>
-
-            <textarea
-              class="w-full rounded-lg border p-3 text-sm"
-              placeholder="Message"
-              rows="8"
-              id="message"
-            ></textarea>
-          </div>
-
-          <div class="mt-4">
-            <a href="#!"
-              class=" justify-center w-full rounded-full bg-[#292059] hover:bg-[#E5E3F7] hover:text-[#292059] px-5 py-3 font-semibold transition ease-out duration-500 text-[#ffffff] items-center flex gap-2 sm:w-auto"
-            >
-              Send <ion-icon name="send-outline"></ion-icon>
-          </a>
-          </div>
-        </form>
-      </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <div class="bg-[#545361] p-10">
     <h1 class="text-center lg:text-[45px] text-[25px] font-semibold text-[#ffffff]">Get In Touch</h1>
     <p class="text-center lg:text-[25px] text-[#ffffff]">You can reach me here</p>
     <div class="flex items-center lg:gap-10 gap-5 justify-center mt-4">
-      <a href="https://www.linkedin.com/in/alimuhammeddev/"><ion-icon name="logo-linkedin" class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
-      <a href="https://www.instagram.com/alimuhammed_dev/"><ion-icon name="logo-instagram" class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
-      <a href="https://twitter.com/alimuhammed_Dev"><ion-icon name="logo-twitter" class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
-      <a href="https://wa.me/23409094300959"><ion-icon name="logo-whatsapp" class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
-      <a href="https://github.com/alimuhammeddev"><ion-icon name="logo-github" class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
+      <a href="https://www.linkedin.com/in/alimuhammeddev/"><ion-icon name="logo-linkedin"
+          class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
+      <a href="https://www.instagram.com/alimuhammed_dev/"><ion-icon name="logo-instagram"
+          class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
+      <a href="https://twitter.com/alimuhammed_Dev"><ion-icon name="logo-twitter"
+          class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
+      <a href="https://wa.me/23409094300959"><ion-icon name="logo-whatsapp"
+          class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
+      <a href="https://github.com/alimuhammeddev"><ion-icon name="logo-github"
+          class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
     </div>
   </div>
 
@@ -424,64 +505,64 @@
 
 
 <script>
-    const navlinks = document.querySelector('.nav-links')
-        function onToggleMenu(e){
-             e.name = e.name === 'close' ? 'menu' : 'close' 
-             navlinks.classList.toggle('-translate-x-full')
-         }
-         var toTopButton = document.getElementById("to-top-button");
+  const navlinks = document.querySelector('.nav-links')
+  function onToggleMenu(e) {
+    e.name = e.name === 'close' ? 'menu' : 'close'
+    navlinks.classList.toggle('-translate-x-full')
+  }
+  var toTopButton = document.getElementById("to-top-button");
 
-        // When the user scrolls down 200px from the top of the document, show the button
-        window.onscroll = function () {
-            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                toTopButton.classList.remove("hidden");
-            } else {
-                toTopButton.classList.add("hidden");
-            }
-        }
+  // When the user scrolls down 200px from the top of the document, show the button
+  window.onscroll = function () {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      toTopButton.classList.remove("hidden");
+    } else {
+      toTopButton.classList.add("hidden");
+    }
+  }
 
-        // When the user clicks on the button, scroll to the top of the document
-        function goToTop() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
+  // When the user clicks on the button, scroll to the top of the document
+  function goToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 </script>
 <script type="module">
-    import KeenSlider from 'https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/+esm'
-  
-    const keenSlider = new KeenSlider(
-      '#keen-slider',
-      {
-        loop: true,
-        slides: {
-          origin: 'center',
-          perView: 1,
-          spacing: 16,
-        },
-        breakpoints: {
-          '(min-width: 1024px)': {
-            slides: {
-              origin: 'auto',
-              perView: 1,
-              spacing: 32,
-            },
+  import KeenSlider from 'https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/+esm'
+
+  const keenSlider = new KeenSlider(
+    '#keen-slider',
+    {
+      loop: true,
+      slides: {
+        origin: 'center',
+        perView: 1,
+        spacing: 16,
+      },
+      breakpoints: {
+        '(min-width: 1024px)': {
+          slides: {
+            origin: 'auto',
+            perView: 1,
+            spacing: 32,
           },
         },
       },
-      []
-    )
-  
-    const keenSliderPrevious = document.getElementById('keen-slider-previous')
-    const keenSliderNext = document.getElementById('keen-slider-next')
-  
-    const keenSliderPreviousDesktop = document.getElementById('keen-slider-previous-desktop')
-    const keenSliderNextDesktop = document.getElementById('keen-slider-next-desktop')
-  
-    keenSliderPrevious.addEventListener('click', () => keenSlider.prev())
-    keenSliderNext.addEventListener('click', () => keenSlider.next())
-  
-    keenSliderPreviousDesktop.addEventListener('click', () => keenSlider.prev())
-    keenSliderNextDesktop.addEventListener('click', () => keenSlider.next())
-  </script>
+    },
+    []
+  )
+
+  const keenSliderPrevious = document.getElementById('keen-slider-previous')
+  const keenSliderNext = document.getElementById('keen-slider-next')
+
+  const keenSliderPreviousDesktop = document.getElementById('keen-slider-previous-desktop')
+  const keenSliderNextDesktop = document.getElementById('keen-slider-next-desktop')
+
+  keenSliderPrevious.addEventListener('click', () => keenSlider.prev())
+  keenSliderNext.addEventListener('click', () => keenSlider.next())
+
+  keenSliderPreviousDesktop.addEventListener('click', () => keenSlider.prev())
+  keenSliderNextDesktop.addEventListener('click', () => keenSlider.next())
+</script>
 
 <script>
   // Scroll Spy Functionality
@@ -489,23 +570,24 @@
   const navLinks = document.querySelectorAll(".nav-link");
 
   window.addEventListener("scroll", () => {
-      let current = "";
+    let current = "";
 
-      sections.forEach(section => {
-          const sectionTop = section.offsetTop;
-          const sectionHeight = section.clientHeight;
-          if (pageYOffset >= sectionTop - sectionHeight / 3) {
-              current = section.getAttribute("id");
-          }
-      });
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.clientHeight;
+      if (pageYOffset >= sectionTop - sectionHeight / 3) {
+        current = section.getAttribute("id");
+      }
+    });
 
-      navLinks.forEach(link => {
-          link.classList.remove("text-[#292059]"); // Active color
-          link.classList.add("text-[#121212CC]"); // Default color
-          if (link.getAttribute("href") === `#${current}`) {
-              link.classList.add("text-[#292059]"); // Change to active color
-          }
-      });
+    navLinks.forEach(link => {
+      link.classList.remove("text-[#292059]"); // Active color
+      link.classList.add("text-[#121212CC]"); // Default color
+      if (link.getAttribute("href") === `#${current}`) {
+        link.classList.add("text-[#292059]"); // Change to active color
+      }
+    });
   });
 </script>
+
 </html>
