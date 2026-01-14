@@ -428,7 +428,7 @@
           <p class="text-white mt-2">React</p>
         </div>
         <div class="flex flex-col items-center">
-          <i class="w3-hover-opacity lni lni-nextjs text-white text-[50px]" style="margin: 10px;"></i>
+          <i class="devicon-nextjs-plain text-white text-[50px]" style="margin: 10px;"></i>
           <p class="text-white mt-2">Next JS</p>
         </div>
         <div class="flex flex-col items-center">
@@ -547,7 +547,7 @@
   </div>
 
   <div class="pb-2">
-    <h1 class="text-center text-[#292059] font-semibold lg:text-[25px] mt-5">&copy; 2025 Ali Muahmmed S.</h1>
+    <h1 class="text-center text-[#292059] font-semibold lg:text-[25px] mt-5">&copy; 2026 Ali Muahmmed S.</h1>
   </div>
 </body>
 
@@ -634,6 +634,22 @@
       link.classList.add("text-[#121212CC]"); // Default color
       if (link.getAttribute("href") === `#${current}`) {
         link.classList.add("text-[#292059]"); // Change to active color
+      }
+    });
+  });
+</script>
+
+<script>
+  const navLinksMobile = document.querySelectorAll(".nav-link");
+  const menuIcon = document.querySelector("ion-icon[name='menu-outline'], ion-icon[name='close']");
+  const navLinksContainer = document.querySelector(".nav-links");
+
+  navLinksMobile.forEach(link => {
+    link.addEventListener("click", () => {
+      // Only run on small screens
+      if (window.innerWidth < 768) {
+        navLinksContainer.classList.add("-translate-x-full");
+        menuIcon.name = "menu-outline";
       }
     });
   });
