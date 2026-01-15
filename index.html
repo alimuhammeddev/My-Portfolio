@@ -68,45 +68,127 @@
     </nav>
   </header>
 
-  <div class="lg:p-0 p-5 lg:mt-36 mt-20 max-w-7xl mx-auto" id="home">
-    <div class="container mt-5 grid lg:grid-cols-2 gap-36">
-      <div class="">
-        <h1 class="text-xl font-medium">Hello!</h1>
-        <h2 class="lg:text-[30px] text-[20px] font-semibold">I'm Ali Muhammed S.</h2>
-        <h3 class="lg:text-[40px] text-[25px] font-bold">A Frontend <span class="text-[#292059]">Web Developer</span>
+  <section id="home" class="max-w-7xl mx-auto px-5 lg:px-0 lg:mt-36 mt-24">
+    <div class="grid lg:grid-cols-2 items-center gap-20">
+
+      <div>
+        <span class="inline-block mb-4 px-4 py-1 text-sm font-semibold text-[#292059] bg-[#E5E3F7] rounded-full">
+          Frontend Web Developer
+        </span>
+
+        <h1 class="text-2xl font-medium mb-2">Hello, I'm</h1>
+
+        <h2 class="lg:text-4xl text-2xl font-bold mb-3">
+          Ali Muhammed S.
+        </h2>
+
+        <h3 class="lg:text-5xl text-3xl font-extrabold text-[#292059] mb-6">
+          I build modern web experiences
         </h3>
-        <p class="lg:text-[20px] text-[18px] text-justify">Hello! I'm Ali Muhammed, a passionate and creative Frontend
-          Developer with a strong foundation in turning design concepts into beautiful, user-friendly websites and web
-          applications. With experience in the field, I thrive on pushing the boundaries of web development to create
-          immersive digital experiences.</p>
-        <div class="mt-7 lg:space-x-3 lg:space-y-0 space-y-5 flex lg:flex-row flex-col items-center">
+
+        <p class="lg:text-lg text-base text-gray-600 max-w-xl leading-relaxed mb-8">
+          I’m a passionate Frontend Developer focused on transforming designs into
+          intuitive, responsive, and engaging web applications. I enjoy crafting
+          clean interfaces and delivering smooth user experiences.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-5">
           <a href="/resume/Ali Dev.pdf"
-            class="bg-[#E5E3F7] hover:text-[#292059] p-3 px-7 lg:w-fit w-full font-semibold text-[17px] rounded-full transition duration-500 flex items-center justify-center gap-1"><ion-icon
-              name="document-outline"></ion-icon> View resume</a>
+            class="flex items-center justify-center gap-2 px-8 py-3 text-[#292059] font-semibold bg-[#E5E3F7] rounded-full hover:bg-[#292059] hover:text-white transition duration-300">
+            <ion-icon name="document-outline"></ion-icon>
+            View Resume
+          </a>
+
           <a href="https://wa.me/23407086587956"
-            class="bg-[#292059] text-[#ffffff] lg:w-fit w-full hover:bg-[#E5E3F7] hover:text-[#292059] p-3 px-7 font-semibold text-[17px] rounded-full justify-center transition duration-500 flex items-center gap-1">Hire
-            me <ion-icon name="rocket-outline"></ion-icon></a>
+            class="flex items-center justify-center gap-2 px-8 py-3 font-semibold text-white bg-[#292059] rounded-full hover:bg-[#1f1845] transition duration-300">
+            Hire Me
+            <ion-icon name="rocket-outline"></ion-icon>
+          </a>
         </div>
       </div>
 
-      <div class="hover:scale-105 cursor-pointer transition ease-out duration-500">
-        <img src="/Img/hero image.jpg" alt="">
-      </div>
-    </div>
-  </div>
+      <div class="relative flex justify-center lg:justify-end">
+        <div class="absolute -inset-3 bg-gradient-to-tr from-[#E5E3F7] to-[#292059] rounded-3xl blur-2xl opacity-30">
+        </div>
 
-  <div class="lg:p-0 p-5 lg:mt-28 mt-16 max-w-7xl mx-auto" id="about">
-    <h1 class="lg:text-[40px] text-[25px] font-semibold">About me</h1>
-    <p class="lg:text-[20px] text-[18px] mt-2 text-justify">I'm a Web Developer with extensive experience for over 3
-      years in crafting responsive, user-friendly websites and applications. I have a solid foundation in HTML, CSS, and
-      JavaScript, and I'm proficient in modern frontend frameworks like React.js, Next.js and Tailwind CSS. I build both
-      website and web applications. Over the past years, I've honed my skills in creating clean, maintainable code
-      and delivering engaging user experiences. My journey in web development started with a curiosity for how websites
-      are built, which quickly turned into a dedicated career path. In my projects, I prioritize performance,
-      accessibility, and scalability. I'm always eager to learn new technologies and keep up with the latest trends in
-      the industry to improve my skill set continuously. I'm excited about the future of web development and look
-      forward to contributing to impactful projects. Let's connect and create something amazing together!</p>
-  </div>
+        <img src="/Img/hero image.jpg" alt="Ali Muhammed"
+          class="relative w-80 lg:w-[420px] rounded-3xl shadow-xl hover:scale-105 transition duration-500">
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="about" class="max-w-7xl mx-auto px-5 lg:px-0 lg:mt-32 mt-20">
+
+    <!-- Section Header -->
+    <div class="mb-10">
+      <span class="inline-block mb-3 px-4 py-1 text-sm font-semibold text-[#292059] bg-[#E5E3F7] rounded-full">
+        About Me
+      </span>
+
+      <h2 class="lg:text-5xl text-3xl font-extrabold">
+        Passionate Frontend Developer
+      </h2>
+    </div>
+
+    <!-- Content -->
+    <div class="grid lg:grid-cols-2 gap-12 items-start">
+
+      <!-- Text -->
+      <div class="space-y-5 text-gray-600 lg:text-lg text-base leading-relaxed text-justify">
+        <p>
+          I'm a Web Developer with over <span class="font-semibold text-[#292059]">2 years of experience</span>
+          crafting responsive, user-friendly websites and web applications. I have a strong foundation
+          in HTML, CSS, and JavaScript, and I work extensively with modern frontend tools like
+          React.js, Next.js, and Tailwind CSS.
+        </p>
+
+        <p>
+          Over the years, I’ve refined my ability to write clean, maintainable code while building
+          visually appealing and performant interfaces. I enjoy transforming ideas and designs
+          into functional digital experiences that users love interacting with.
+        </p>
+
+        <p>
+          My journey into web development began with curiosity, which quickly grew into a career
+          driven by continuous learning and innovation. I prioritize performance, accessibility,
+          and scalability in every project I work on.
+        </p>
+
+        <p>
+          I’m always eager to explore new technologies and stay current with industry trends.
+          I look forward to collaborating on impactful projects and creating meaningful digital
+          solutions together.
+        </p>
+      </div>
+
+      <!-- Highlights -->
+      <div class="grid sm:grid-cols-2 gap-6">
+        <div class="p-6 rounded-2xl bg-[#E5E3F7]">
+          <h3 class="text-3xl font-bold text-[#292059]">2+</h3>
+          <p class="font-medium mt-1">Years Experience</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-[#E5E3F7]">
+          <h3 class="text-3xl font-bold text-[#292059]">20+</h3>
+          <p class="font-medium mt-1">Projects Completed</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-[#E5E3F7]">
+          <h3 class="text-3xl font-bold text-[#292059]">Frontend</h3>
+          <p class="font-medium mt-1">Specialization</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-[#E5E3F7]">
+          <h3 class="text-3xl font-bold text-[#292059]">Modern</h3>
+          <p class="font-medium mt-1">Tech Stack</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
 
   <div class="lg:p-0 p-5 lg:mt-20 max-w-7xl mx-auto" id="projects">
     <div class="container mt-7">
@@ -133,7 +215,8 @@
                   <div class="bg-white rounded-xl p-5 mt-4 w-[90%] lg:w-3/4 text-center">
                     <h3 class="lg:text-2xl text-xl font-semibold text-gray-800">Nile Brew</h3>
                     <p class="text-gray-600 mt-2 lg:text-lg">
-                      Nile Brew is a coffee shop dedicated to crafting rich, premium brews inspired by timeless tradition and modern taste.
+                      Nile Brew is a coffee shop dedicated to crafting rich, premium brews inspired by timeless
+                      tradition and modern taste.
                     </p>
                     <p class="text-gray-500 mt-2 lg:text-lg">
                       Technologies: Next.js · TypeScript · Tailwind · Paystack · Framer Motion
@@ -154,10 +237,10 @@
                   <div class="bg-white rounded-xl p-5 mt-4 w-[90%] lg:w-3/4 text-center">
                     <h3 class="lg:text-2xl text-xl font-semibold text-gray-800">ClickNShop</h3>
                     <p class="text-gray-600 mt-2 lg:text-lg">
-                      Technologies: ClickNShop is an e-commerce website where users can order products and items online with ease.
+                      ClickNShop is an e-commerce website where users can order products and items online with ease.
                     </p>
                     <p class="text-gray-500 mt-2 lg:text-lg">
-                      Next JS · Tailwind CSS · Stripe · Zustand.
+                      Technologies: Next JS · Tailwind CSS · Stripe · Zustand.
                     </p>
                   </div>
                 </div>
@@ -175,7 +258,8 @@
                   <div class="bg-white rounded-xl p-5 mt-4 w-[90%] lg:w-3/4 text-center">
                     <h3 class="lg:text-2xl text-xl font-semibold text-gray-800">Eventia</h3>
                     <p class="text-gray-600 mt-2 lg:text-lg">
-                      Eventia is an all in one event management platform for virtual, in person and hybrid events it allows users to create, manage and host events with ease. 
+                      Eventia is an all in one event management platform for virtual, in person and hybrid events it
+                      allows users to create, manage and host events with ease.
                     </p>
                     <p class="text-gray-500 mt-2 lg:text-lg">
                       Technologies: Next JS(TypeScript) · Tailwind CSS · Clerk · Cloudinary · Prisma DB · Neon.
@@ -405,63 +489,89 @@
     </div>
   </div>
 
-  <div class="bg-[#292059] p-10 mt-20 lg:pb-28">
-    <div class="">
-      <h1 class="text-center text-[#ffffff] lg:text-[45px] text-[25px] font-semibold">Technologies I work with</h1>
-      <p class="text-center text-[#ffffff] lg:text-[20px] text-[15px]">Here are the few technologies i work with</p>
+  <section class="bg-[#292059] mt-24 py-20">
+    <div class="max-w-7xl mx-auto px-5">
 
-      <div class="lg:flex lg:flex-row grid grid-cols-2 mt-12 justify-center mx-auto items-center gap-10">
-        <div class="flex flex-col items-center">
-          <i class='bx bxl-html5 text-white text-[70px]'></i>
-          <p class="text-white mt-2">HTML5</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <i class='bx bxl-css3 text-white text-[70px]'></i>
-          <p class="text-white mt-2">CSS3</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <i class='bx bxl-javascript text-white text-[70px]'></i>
-          <p class="text-white mt-2">JavaScript</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <i class='bx bxl-react text-white text-[70px]'></i>
-          <p class="text-white mt-2">React</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <i class="devicon-nextjs-plain text-white text-[50px]" style="margin: 10px;"></i>
-          <p class="text-white mt-2">Next JS</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <i class="devicon-typescript-plain text-white text-[50px]" style="margin: 10px;"></i>
-          <p class="text-white mt-2">TypeScript</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <i class='bx bxl-tailwind-css text-white text-[60px]'></i>
-          <p class="text-white mt-2">Tailwind CSS</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <i class='bx bxl-github text-white text-[60px]'></i>
-          <p class="text-white mt-2">Github</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <i class='bx bxl-git text-white text-[60px]'></i>
-          <p class="text-white mt-2">Git</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <i class='bx bxl-jquery text-white text-[60px]'></i>
-          <p class="text-white mt-2">Jquery</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <i class='bx bxl-visual-studio text-white text-[60px]'></i>
-          <p class="text-white mt-2">VS Code</p>
-        </div>
-        <div class="flex flex-col items-center">
-          <i class='bx bxl-figma text-white text-[60px]'></i>
-          <p class="text-white mt-2">Figma</p>
-        </div>
+      <!-- Header -->
+      <div class="text-center mb-16">
+        <h2 class="lg:text-5xl text-3xl font-extrabold text-white">
+          Technologies I Work With
+        </h2>
+        <p class="mt-4 lg:text-lg text-sm text-white/80 max-w-2xl mx-auto">
+          A selection of tools and technologies I use to build modern,
+          scalable, and high-performance web applications.
+        </p>
       </div>
+
+      <!-- Tech Grid -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-10 place-items-center">
+
+        <!-- Tech Item -->
+        <div class="group flex flex-col items-center gap-3">
+          <i class="bx bxl-html5 text-white text-[64px] group-hover:scale-110 transition"></i>
+          <span class="text-white text-sm font-medium">HTML5</span>
+        </div>
+
+        <div class="group flex flex-col items-center gap-3">
+          <i class="bx bxl-css3 text-white text-[64px] group-hover:scale-110 transition"></i>
+          <span class="text-white text-sm font-medium">CSS3</span>
+        </div>
+
+        <div class="group flex flex-col items-center gap-3">
+          <i class="bx bxl-javascript text-white text-[64px] group-hover:scale-110 transition"></i>
+          <span class="text-white text-sm font-medium">JavaScript</span>
+        </div>
+
+        <div class="group flex flex-col items-center gap-3">
+          <i class="bx bxl-react text-white text-[64px] group-hover:rotate-6 transition"></i>
+          <span class="text-white text-sm font-medium">React</span>
+        </div>
+
+        <div class="group flex flex-col items-center gap-3">
+          <i class="devicon-nextjs-plain text-white text-[52px]"></i>
+          <span class="text-white text-sm font-medium">Next.js</span>
+        </div>
+
+        <div class="group flex flex-col items-center gap-3">
+          <i class="devicon-typescript-plain text-white text-[52px]"></i>
+          <span class="text-white text-sm font-medium">TypeScript</span>
+        </div>
+
+        <div class="group flex flex-col items-center gap-3">
+          <i class="bx bxl-tailwind-css text-white text-[58px] group-hover:scale-110 transition"></i>
+          <span class="text-white text-sm font-medium">Tailwind CSS</span>
+        </div>
+
+        <div class="group flex flex-col items-center gap-3">
+          <i class="bx bxl-github text-white text-[58px] group-hover:scale-110 transition"></i>
+          <span class="text-white text-sm font-medium">GitHub</span>
+        </div>
+
+        <div class="group flex flex-col items-center gap-3">
+          <i class="bx bxl-git text-white text-[58px] group-hover:scale-110 transition"></i>
+          <span class="text-white text-sm font-medium">Git</span>
+        </div>
+
+        <div class="group flex flex-col items-center gap-3">
+          <i class="bx bxl-jquery text-white text-[58px] group-hover:scale-110 transition"></i>
+          <span class="text-white text-sm font-medium">jQuery</span>
+        </div>
+
+        <div class="group flex flex-col items-center gap-3">
+          <i class="bx bxl-visual-studio text-white text-[58px] group-hover:scale-110 transition"></i>
+          <span class="text-white text-sm font-medium">VS Code</span>
+        </div>
+
+        <div class="group flex flex-col items-center gap-3">
+          <i class="bx bxl-figma text-white text-[58px] group-hover:scale-110 transition"></i>
+          <span class="text-white text-sm font-medium">Figma</span>
+        </div>
+
+      </div>
+
     </div>
-  </div>
+  </section>
+
 
 
   <!--
@@ -486,6 +596,9 @@
             <p class="mt-2 text-[#292059] lg:text-[20px] flex items-center gap-2"><ion-icon
                 name="mail-outline"></ion-icon> muhammedaliali2020@gmail.com</p>
           </div>
+          <p class="mt-6 text-gray-600 lg:text-base text-sm max-w-md">
+            Feel free to reach out for freelance projects, collaboration, or just to say hi!
+          </p>
         </div>
 
         <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
@@ -529,22 +642,47 @@
     </div>
   </section>
 
-  <div class="bg-[#545361] p-10">
-    <h1 class="text-center lg:text-[45px] text-[25px] font-semibold text-[#ffffff]">Get In Touch</h1>
-    <p class="text-center lg:text-[25px] text-[#ffffff]">You can reach me here</p>
-    <div class="flex items-center lg:gap-10 gap-5 justify-center mt-4">
-      <a href="https://www.linkedin.com/in/alimuhammeddev/"><ion-icon name="logo-linkedin"
-          class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
-      <a href="https://www.instagram.com/alimuhammed_dev/"><ion-icon name="logo-instagram"
-          class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
-      <a href="https://twitter.com/alimuhammed_Dev"><ion-icon name="logo-twitter"
-          class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
-      <a href="https://wa.me/23407086587956"><ion-icon name="logo-whatsapp"
-          class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
-      <a href="https://github.com/alimuhammeddev"><ion-icon name="logo-github"
-          class="lg:text-3xl text-2xl text-[#ffffff]"></ion-icon></a>
+  <section class="bg-[#545361] py-16">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+
+      <!-- Heading -->
+      <h2 class="text-white lg:text-5xl text-3xl font-extrabold">
+        Get In Touch
+      </h2>
+      <p class="mt-3 text-white/90 lg:text-lg text-sm">
+        You can reach me on any of these platforms
+      </p>
+
+      <!-- Social Icons -->
+      <div class="flex items-center justify-center gap-3 mt-8 flex-wrap">
+        <a href="https://www.linkedin.com/in/alimuhammeddev/" target="_blank"
+          class="group relative w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#0A66C2] transition duration-300">
+          <ion-icon name="logo-linkedin" class="text-white text-2xl group-hover:text-white transition"></ion-icon>
+        </a>
+
+        <a href="https://www.instagram.com/alimuhammed_dev/" target="_blank"
+          class="group relative w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-gradient-to-tr from-[#F58529] via-[#DD2A7B] to-[#8134AF] transition duration-300">
+          <ion-icon name="logo-instagram" class="text-white text-2xl group-hover:text-white transition"></ion-icon>
+        </a>
+
+        <a href="https://twitter.com/alimuhammed_Dev" target="_blank"
+          class="group relative w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#1DA1F2] transition duration-300">
+          <ion-icon name="logo-twitter" class="text-white text-2xl group-hover:text-white transition"></ion-icon>
+        </a>
+
+        <a href="https://wa.me/23407086587956" target="_blank"
+          class="group relative w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#25D366] transition duration-300">
+          <ion-icon name="logo-whatsapp" class="text-white text-2xl group-hover:text-white transition"></ion-icon>
+        </a>
+
+        <a href="https://github.com/alimuhammeddev" target="_blank"
+          class="group relative w-12 h-12 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#171515] transition duration-300">
+          <ion-icon name="logo-github" class="text-white text-2xl group-hover:text-white transition"></ion-icon>
+        </a>
+      </div>
+
     </div>
-  </div>
+  </section>
 
   <div class="pb-2">
     <h1 class="text-center text-[#292059] font-semibold lg:text-[25px] mt-5">&copy; 2026 Ali Muahmmed S.</h1>
